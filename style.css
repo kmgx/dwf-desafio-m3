@@ -1,0 +1,420 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 0;
+  background-color: #c4c4c4;
+}
+
+.header {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 17px;
+  background: url(./img/puntitos.svg);
+}
+
+@media (min-width: 1440px) {
+  .header {
+    padding: 36px 80px;
+  }
+}
+
+.logo-header {
+  width: 85px;
+  height: 51px;
+}
+
+@media (min-width: 1440px) {
+  .logo-header {
+    width: 182px;
+    height: 109px;
+  }
+}
+
+.options-container {
+  display: grid;
+  align-items: center;
+  padding: 11px 3px;
+  gap: 7px;
+}
+
+@media (min-width: 1440px) {
+  .options-container {
+    display: none;
+  }
+}
+
+.line {
+  width: 36px;
+  height: 6px;
+  background-color: #141414;
+  border-radius: 20px;
+}
+
+.options-container-two {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .options-container-two {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 428px;
+  }
+}
+
+.li {
+  font-size: 24px;
+  line-height: 28px;
+  list-style: none;
+  justify-content: space-between;
+  align-self: center;
+  font-weight: bold;
+  color: #000000;
+  font-family: "Roboto";
+}
+
+.main {
+  display: grid;
+  gap: 58px;
+  justify-content: center;
+  background: url(./img/puntitos.svg);
+}
+
+@media (min-width: 1440px) {
+  .main {
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    padding: 76px 80px 0;
+  }
+}
+
+.title {
+  width: 291px;
+  height: 96px;
+  text-align: center;
+  margin-top: 76px;
+  font-family: "Open Sans";
+}
+
+@media (min-width: 1440px) {
+  .title {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1px;
+  }
+}
+
+.my-img {
+  height: 300px;
+  margin-bottom: 0;
+}
+
+@media (min-width: 1440px) {
+  .my-img {
+    height: 395px;
+  }
+}
+
+.first-section {
+  background-color: #141414;
+  display: grid;
+  gap: 41px;
+  justify-items: center;
+  padding: 55px 32px;
+}
+
+@media (min-width: 1440px) {
+  .first-section {
+    grid-template-columns: auto auto;
+    column-gap: 90px;
+    padding: 145px 306px;
+    align-items: center;
+  }
+}
+
+.texto {
+  display: grid;
+  gap: 41px;
+}
+
+@media (min-width: 1440px) {
+  .texto {
+    grid-column-start: 2;
+    gap: 28px;
+    align-items: center;
+  }
+}
+
+.my-name {
+  color: #fafafa;
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+@media (min-width: 1440px) {
+  .my-name {
+    text-align: left;
+  }
+}
+
+.p-first-section {
+  color: #fafafa;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "Roboto";
+  width: 312px;
+  height: 193px;
+}
+
+@media (min-width: 1440px) {
+  .p-first-section {
+    font-size: 24px;
+    line-height: 28px;
+    width: 532px;
+    height: 165px;
+  }
+}
+
+.check-button {
+  display: grid;
+  width: 80px;
+  height: 80px;
+  background-color: #141414;
+  border: solid #ffd953;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+@media (min-width: 1440px) {
+  .check-button {
+    width: 211px;
+    height: 211px;
+    grid-row-start: 1;
+  }
+}
+
+.check {
+  justify-items: center;
+  align-self: center;
+  width: 34.17px;
+  height: 23.34px;
+}
+
+@media (min-width: 1440px) {
+  .check {
+    width: 90.13px;
+    height: 61.55px;
+  }
+}
+
+.second-section {
+  background-color: #e2d8d8;
+  display: grid;
+  justify-items: center;
+  padding: 69px 52px;
+  gap: 48.41px;
+}
+
+@media (min-width: 1440px) {
+  .second-section {
+    padding: 59px 84px 108px;
+    gap: 80px;
+  }
+}
+
+.mis-servicios {
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+@media (min-width: 1440px) {
+  .mis-servicios {
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
+
+.service-container {
+  display: grid;
+  gap: 108.99px;
+}
+
+@media (min-width: 1440px) {
+  .service-container {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+.service {
+  display: grid;
+  justify-items: center;
+}
+
+.service-img {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 19px;
+}
+
+.service-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: "Roboto";
+}
+
+.p-service {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.third-section {
+  background-color: #141414;
+  display: grid;
+  padding: 70px 20px;
+  gap: 60px;
+  justify-content: center;
+}
+
+@media (min-width: 1440px) {
+  .third-section {
+    grid-template-columns: auto auto;
+    padding: 116px 304px;
+  }
+}
+
+.escribime {
+  color: #fafafa;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+@media (min-width: 1440px) {
+  .escribime {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: right;
+    letter-spacing: -1px;
+  }
+}
+
+.form {
+  display: grid;
+  gap: 51px;
+}
+
+.fieldset {
+  display: grid;
+  gap: 9px;
+}
+
+.label {
+  color: #fafafa;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+}
+
+.label-message {
+  color: #fafafa;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: capitalize;
+  font-family: "Roboto";
+}
+
+.input-name,
+.input-email {
+  width: 335px;
+  height: 45px;
+}
+
+.input-message {
+  width: 335px;
+  min-height: 113px;
+}
+
+.button {
+  background-color: #ffd953;
+  padding: 13px 30px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.footer {
+  background-color: #dbdbdb;
+  display: grid;
+  padding: 53px 16px 113px;
+  gap: 118px;
+  background: url(./img/puntitos.svg);
+}
+
+@media (min-width: 1440px) {
+  .footer {
+    padding: 95px 80px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+  }
+}
+
+.logo-footer {
+  width: 120px;
+  height: 72px;
+}
+
+@media (min-width: 1440px) {
+  .logo-footer {
+    width: 175px;
+    height: 105px;
+  }
+}
+
+.rrss-container {
+  display: grid;
+  gap: 29px;
+}
+
+@media (min-width: 1440px) {
+  .rrss-container {
+    padding: 0 135px;
+  }
+}
+
+.rrss-mini-container {
+  display: flex;
+  align-items: center;
+}
+
+.rrss-img {
+  width: 27px;
+  height: 27px;
+  margin-right: 7px;
+}
+
+.rrss {
+  font-size: 16px;
+  line-height: 19px;
+}
